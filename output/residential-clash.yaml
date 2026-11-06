@@ -4,30 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  server: 130.94.19.95
-  port: 57277
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: us001.zestapp778.com
-  skip-cert-verify: false
-- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  server: 49.254.204.133
-  port: 1774
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: 1234!@#$
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  server: 112.120.123.140
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  sni: fa86aac8-tmeqo0-0-1imi4.nw4.hyhuawei.com
-  skip-cert-verify: false
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
   server: 60.248.219.78
   port: 443
   udp: true
@@ -46,18 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
