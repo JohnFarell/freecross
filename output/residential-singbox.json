@@ -28,19 +28,15 @@
       "password": "1234!@#$"
     },
     {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "125.227.86.46",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+      "server": "112.120.123.140",
       "server_port": 443,
-      "password": "0a9f1f5a397bd427",
+      "password": "40fb1315-191a-11ed-b0ca-f23c91cfbbc9",
       "tls": {
         "enabled": true,
-        "server_name": "TG.freecodes",
-        "insecure": true
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "db"
+        "server_name": "fa86aac8-tmeqo0-0-1imi4.nw4.hyhuawei.com",
+        "insecure": false
       }
     },
     {
@@ -69,7 +65,7 @@
         "auto",
         "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
       ]
     },
@@ -79,7 +75,7 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
